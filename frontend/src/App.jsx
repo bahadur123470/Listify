@@ -7,7 +7,7 @@ import Navbar from './components/Navbar.jsx';
 
 const App = () => {
   return (
-    <Box bg={'gray'} minH={"100vh"}>
+    <Box bg={'black'} minH={"100vh"}>
       <Navbar />
       <Routes>
         <Route path="/" element={ <HomePage /> } />
